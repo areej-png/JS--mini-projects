@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+   position: relative;
+   top: 10rem;
+   
+}  
+.change {
+    background-color: #7c6262;
+    padding: 25px;
+    width: 50%;
+    height: 50%;
+   
+}
+.change p {
+    text-align: center;
+    font-size: medium;
+}
+button {
+    background-color: antiquewhite;
+    padding: 5px;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    left: 90px;
+   margin-top: 5px;
+}
