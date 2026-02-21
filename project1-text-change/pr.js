@@ -1,6 +1,9 @@
-let para = document.getElementById("text");
-let btn = document.getElementById("changeText");
-function changeText (){
-para.innerText = "you clicked the button!";
-}
-btn.addEventListener("click", changeText);
+const para = document.getElementById("text");
+const btn = document.getElementById("changeText");
+
+btn.addEventListener("click", () => {
+  para.textContent =
+    para.textContent === "Hello world"
+      ? "You clicked the button!"
+      : "Hello world";
+});
